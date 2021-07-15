@@ -1,0 +1,70 @@
+#body1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(3, 104, 57);
+}
+#plosca{
+    background-color: #CCC;
+    width: 100vmin;
+    height: 100vmin;
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+}
+.snake{
+    background-color: rgb(0, 100, 0);
+    border: .25vmin solid #CCC; 
+}
+.moc{
+    background-color: #D30000;
+    border: .25vmin solid #8E1601;
+    border-radius: 50%;
+}
+
+caption {
+    font-size: xx-large;
+    font-weight: bold;    
+}
+#highscore {
+    padding-bottom: 600px;
+    padding-left: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+h1{
+    color: white;
+}
+#viri{
+    text-align: center;
+    align-items: center;
+    color: black;
+    background-color: blueviolet;
+}
+#viri2{
+    text-align: center;
+    background-color: blueviolet;
+}
+span{
+    color: yellow;
+}
+a{
+    color: cyan;
+}
+
+#onScreenControllers {
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+  }
+@media only screen and (min-width : 1000px){
+    #onScreenControllers {
+        display: none;
+    }
+}
